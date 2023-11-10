@@ -17,7 +17,7 @@ function handleSymbol(symbol){
     switch(symbol){
         case 'c':
             buffer='0';
-            runningTotal='0';
+            runningTotal=0;
             previousOperator=null;
             break;
         case '=':
